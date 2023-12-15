@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+.navbar-login {
+    display: block;
+    border: 1px solid black;
+}
+
+.navbar-login a {
+    display: inline-block;
+    margin: 10px;
+}
+
+.side {
+    display: inline-block;
+    width: 25%;
+    background-color: yellow;
+    vertical-align: top;
+    height: 100%;
+    padding: 10px;
+}
+
+.login {
+    display: inline-block;
+    width: 74%;   
+    background-color: green;
+    vertical-align: top;
+    height: 100%;
+    padding: 10px;
+
+}
+
+.login-bar {
+    display: block;background-color: red;
+    display: block;
+    height: 500px;
+    margin-top: 15px;;
+    padding: 15px;
+}
+
+.side a {
+    margin: 0;
+    display: block;
+}
+
+.side img {
+    width: 100%;
+}
+h3 {
+    margin: 0;
+}
+.login input {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.login button {
+    top: 5px;
+}
+
+.footer-container {
+    background-color: green;
+    width: 100%;
+    margin-top:10px;
+    display: inline-block;
+}
+
+.footer-container p {
+    justify-content: center;
+    text-align: center;
+}
