@@ -38,7 +38,19 @@
     text-align: center;
 }
 
-.a li {
+.article-list li {
     font-weight: bold;
 }
 
+
+.main-konten h2{
+    text-align: center  ;
+}
+
+.margin {
+    margin: 15px;
+}
+
+.form {
+    margin-top: 30px;
+}

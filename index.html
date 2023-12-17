@@ -16,6 +16,7 @@
                     <li><a href="index.html">Home</a></li>
                     <li><a href="#">Feed</a></li>
                     <li><a href="login.html">Login</a></li>
+                    <li><a href="form.html">Form</a></li>
                 </ul>
             </nav>
             <!-- navbar article -->
@@ -34,7 +35,7 @@
                 <hr style="height:3px;border:none;color:#333;background-color:#333;">
                 <div class="article-list">
                     <ol type="A">
-                        <li><h3>This is story 1</li>
+                        <li>This is story 1</li>
                             <p>pargraph </p>
                         <li>This is story 2</li>
                             <p>pargraph </p>
@@ -68,6 +69,45 @@
                 </audio>
             </section>
         </article>
+        <form>
+            <fieldset>
+                <legend> Personal details </legend>
+                <!-- Select -->
+                <div class="salutation">
+                <label for="salutation">salutation</label>
+                <select name="salutation" id="salutation">
+                    <option value="yes">YES</option>
+                    <option value="no">NO</option>
+                </select>
+                </div>
+                <!-- type text -->
+                <div class="text-name margin">
+                <label for="Fname">First Name</label>
+                <input type="text" id="Fname" name="Fname">
+                <label for="Lname">Last Name</label>
+                <input type="text" id="Lname" name="Lname">
+                </div>
+                <!-- gender -->
+                <div class="gender-list margin">
+                    <label for="gender">choose your gender</label>
+                    <input type="radio" id="gender" name="male">Male
+                    <input type="radio" id="gender" name="female">female
+                </div>
+                <div class="email margin">
+                    <label for="email-list">Email :</label>
+                    <input id="email-list" name="email-list">
+                </div>
+                <div class="date-birth margin">
+                    <label for="db">Date of birth</label>
+                    <input type="date" id="db" name="db">
+                </div>
+                <div class="addres margin">
+                    <label for="address" >address :</label>
+                    <input type="url">
+                </div>
+                <input type="submit">
+            </fieldset>
+        </form>
     </main>
 </body>
-</html>
+</htm
